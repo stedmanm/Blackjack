@@ -1,0 +1,45 @@
+.game-container {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-row-1, .flex-row-2, .flex-row-3  {
+    display: flex; 
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-row-1, .flex-row-2 {
+    background: url('images/background.png') center;
+    color: #ffffffff;
+}
+
+.flex-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 400px;
+}
+
+.flex-row-1 img {
+    padding: 10px;
+    width: 110px;
+}
+
+.flex-row-2 button {
+    border: 1px solid black;
+}
+
+.flex-row-2 div {
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
